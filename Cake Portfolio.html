@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<title>Aedans's Cakes and More</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+body{
+	background: linear-gradient(to right, #FFBAFE , #F0EDF0 );
+}
+    </style>
+<body>
+    <!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+     <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="Cake%20Portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button">See Our Products</a>
+  <a href="BakingVids.html" onclick="w3_close()" class="w3-bar-item w3-button">Baking Vids</a>
+     <a href="Contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Our Accounts</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-pink w3-xlarge" style="max-width:1200px;margin:auto" >
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <a href="mailto:aedanscakesandmore@gmail.com">  <div class="w3-right w3-padding-16"><i class="fa fa-envelope"></i></div></a>
+      
+    <a  href="index.html"> <div class="w3-center w3-padding-16">Aedan's Cakes and More</div>
+      </a> </div>
+</div>
+  
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+    <h2>Here's a Collection of what we made:</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> Cakes</button>
+  <button class="btn" onclick="filterSelection('cars')"> Cupcakes</button>
+  <button class="btn" onclick="filterSelection('people')"> Other Products</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/119006503_2839241799639422_4533571358882161241_o.jpg" alt="Mountains" style="width:100%">
+      </div>
+    </div>
+  
+  <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/119941782_2849143185315950_5842125377669962386_o.jpg" alt="Lights" style="width:100%">
+     
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/118003143_2819686538261615_464888102711827727_o.jpg" alt="Nature" style="width:100%">
+    
+    </div>
+  </div>
+
+  <div class="column cars">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/118943523_2838088086421460_815996263338066425_o.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/119482903_2844535532443382_2969909609400401206_o.jpg" alt="Car" style="width:100%">
+ 
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/120332745_2855901717973430_4151975192570306952_o.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+
+  <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/120010461_2849143375315931_612475451750530137_o.jpg" alt="People" style="width:100%">
+     
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/120342739_2858599734370295_8650200262913585055_o.jpg" alt="People" style="width:100%">
+    
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/120536193_2859702760926659_236209378151437540_o.jpg" alt="People" style="width:100%">
+    
+    </div>
+  </div>
+    <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/120530953_2861619640734971_7251881007773699001_o.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+    <div class="column cars">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/120970649_2865826546980947_5750736345094209551_o.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+    <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/121136755_2865826453647623_1022397133831936296_o.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+    <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/121208659_2869373006626301_7895432287869753962_o.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+    <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/121553923_2871500176413584_4298444091587963598_o.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+    <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/122117454_2876240925939509_1018118402224957405_o.jpg" alt="Car" style="width:100%">
+   
+    </div>
+  </div>
+    <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/122466590_2879875045576097_4826902264999475148_o.jpg" alt="Car" style="width:100%">
+    </div>
+    </div>
+
+       <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/123658338_2891949661035302_8029017113548349290_o.jpg" alt="Car" style="width:100%">
+    </div>
+        </div>
+    <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/123793354_2891949764368625_4440498236332842384_o.jpg" alt="Car" style="width:100%">
+    </div>
+        </div>
+    <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/125230187_2897729933790608_549655123275118680_o.jpg" alt="Car" style="width:100%">
+    </div>
+        </div>
+    <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/126181069_2909587545938180_6263784792253239678_o.jpg" alt="Car" style="width:100%">
+    </div>
+        </div>
+    <div class="column nature">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/127020863_2908541056042829_311477474890611262_o.jpg" alt="Car" style="width:100%">
+    </div>
+        </div>
+    <div class="column cars">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/127222255_2909587585938176_465007271063941334_o.jpg" alt="Car" style="width:100%">
+    </div>
+        </div>
+   
+    
+    <div class="column cars">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/received_403961814323865.jpeg" alt="Car" style="width:100%">
+    </div>
+        </div>
+    <div class="column cars">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/received_713227685949057.jpeg" alt="Car" style="width:100%">
+    </div>
+        </div>
+     <div class="column cars">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/received_734887277062709.jpeg" alt="Car" style="width:100%">
+    </div>
+        </div>
+    <div class="column people">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/123737631_2891124841117784_9161941959567035740_o.jpg" alt="Car" style="width:100%">
+    </div>
+        </div>
+     <div class="column people"> 
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/123268259_2891124837784451_7837389263246812062_o.jpg" alt="Car" style="width:100%">
+    </div>
+        </div>
+            <div class="column people">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/123393007_2891124844451117_5237943180183389598_o.jpg" alt="Car" style="width:100%">
+                </div></div>
+                 <div class="column people">
+    <div class="content">
+      <img src="Cakes%20and%20Cupcakes/124267952_2894773327419602_2462341221418035666_o.jpg" alt="Car" style="width:100%">
+                     </div></div>
+   
+<!-- END GRID -->
+        </div></div>
+    
+     <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
